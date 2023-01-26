@@ -2,7 +2,7 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Gatsby Personal Site`,
+    title: `Forrest Murray`,
     siteUrl: `https://www.yourdomain.tld`
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
@@ -28,7 +28,7 @@ const config: GatsbyConfig = {
         path: `${__dirname}/blog`,
       }
     },
-    "gatsby-transformer-sharp"
+    "gatsby-transformer-sharp",
   ]
 };
 
