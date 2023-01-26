@@ -17,7 +17,7 @@ const AboutPage = () => {
     }
   `)
   return (
-    <Layout pageTitle="Home">
+    <Layout pageTitle="About Me">
       <h1>About Me</h1>
       <StaticImage
         alt="A man running a chain mortising machine in a workshop."
