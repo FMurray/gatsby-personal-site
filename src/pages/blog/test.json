@@ -1,0 +1,57 @@
+{​​
+  "deploymentId": "foo",
+  "deployedAccountId": "59bc4ddb-bf5f-44f8-a4df-b515be4985ba",
+  "deployedUnitId": "RTS001",
+  "deploymentOwners": [
+    "jenn.lee@raventhermal.com"
+  ],
+  "deploymentStatus": "active",
+  "devices": {​​
+    "PT01": {​​
+    "PT01": "float",
+    "PT01_Batt": "float",
+    "PT01_RSSI": "float",
+    "_locationName": "furnace"
+    }​​,
+    "PT03": {​​
+    "PT03": "float",
+    "PT03_Batt": "float",
+    "PT03_RSSI": "float",
+    "_locationName": "furnace"
+    },​​
+    "PT04": {​​
+      "PT04": "float",
+      "PT04_Batt": "float",
+      "PT04_RSSI": "float",
+      "_locationName": "furnace"
+      }​​,
+    "TT01": {​​
+      "TT01": "float",
+      "TT01_Batt": "float",
+      "TT01_RSSI": "float",
+      "_locationName": "furnace"
+      }​​,    
+  "TT02": {​​
+    "TT02": "float",
+    "TT02_Batt": "float",
+    "TT02_RSSI": "float",
+    "_locationName": "floor"
+  }​​,    
+  "TT03": {​​
+    "TT03": "float",
+   "TT03_Batt": "float",
+   "TT03_RSSI": "float",
+   "_locationName": "futon"
+  }​​,       
+"TT04": {​​
+   "TT04": "float",
+   "TT04_Batt": "float",
+   "TT04_RSSI": "float",
+   "_locationName": "freezer"
+  }​​   
+},​​
+"lastWriteTime": 1674563075,
+"siteName": "ravens-nest",
+"unitStatus": "offline",
+"writeFrequency": 60
+}​​
