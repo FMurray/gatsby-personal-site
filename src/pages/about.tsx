@@ -2,6 +2,8 @@
 import * as React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import Seo from '../components/seo'
+import Layout from '../components/layout'
+import { StaticImage } from 'gatsby-plugin-image'
 
 // Step 2: Define your component
 const AboutPage = () => {
@@ -15,10 +17,14 @@ const AboutPage = () => {
     }
   `)
   return (
-    <main>
+    <Layout pageTitle="Home">
       <h1>About Me</h1>
-      <p>{data?.site?.siteMetadata?.title}</p>
-    </main>
+      <StaticImage
+        alt="A man running a chain mortising machine in a workshop."
+        src="../images/chain_mortiser.png"
+      />
+    </Layout>
+
   )
 }
 

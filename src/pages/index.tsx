@@ -7,8 +7,8 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="Home">
       <StaticImage
-        alt="A man running a chain mortising machine in a workshop."
-        src="../images/chain_mortiser.png"
+        alt="A dog sitting under a wooden archway in front of a house"
+        src="../images/IMG_1676.png"
       />
     </Layout>
   )
